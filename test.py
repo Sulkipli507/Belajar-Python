@@ -1,0 +1,7 @@
+print("toko serbaa ada")
+nama = input("Masukkan nama barang : ")
+harga = int(input("masukkan harga barang : "))
+jumlah = int(input("masukkan jumlah barang yang dibeli : "))
+transaksi = int(input("jumlah yang dibayarkan : "))
+total = transaksi-(harga*jumlah)
+print("total kembalian : Rp.",total)
